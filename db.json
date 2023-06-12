@@ -1,0 +1,62 @@
+{
+  "projectList": [
+    {
+      "id": 1,
+      "title": "Dự án 1",
+      "description": "Dự án bát động sản",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 2,
+      "title": "Dự án 2",
+      "description": "Dự án bát động sản",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    },
+    {
+      "id": 3,
+      "title": "Dự án 3",
+      "description": "Dự án bát động sản",
+      "image": "https://picsum.photos/150/100",
+      "url": "https://seta-international.com/",
+      "repository": "https://github.com/sontv"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "sontv",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "username": "thienth",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "email": "quang@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "email": "quangpnph20850@fpt.edu.vn",
+      "password": "3456",
+      "id": 4
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
