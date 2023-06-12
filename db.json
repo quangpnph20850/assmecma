@@ -47,6 +47,16 @@
       "email": "quangpnph20850@fpt.edu.vn",
       "password": "3456",
       "id": 4
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 6
     }
   ],
   "role": [

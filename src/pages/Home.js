@@ -23,8 +23,8 @@ const HomePage = () => {
             <li class="navbar__link"><a href="#works">Work</a></li>
             <li class="navbar__link"><a href="#things">About</a></li>
             <a href="#footer"><button class="navbar__btn">Contact</button></a>
-            <a href=""><link rel="stylesheet" href="../src/pages/dangky/dangky.html"><button class="navbar__btn">Đăng ký</button></a>
-            <a href="../src/pages/dangky/dangnhap.html"><button class="navbar__btn">Đăng nhập</button></a>
+            <a href="/signup"><button class="navbar__btn">Đăng ký</button></a>
+            <a href="/signin"><button class="navbar__btn">Đăng nhập</button></a>
           </ul>
           <!-- menu button -->
           <div class="navbar__icons">

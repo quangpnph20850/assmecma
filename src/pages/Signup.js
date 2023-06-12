@@ -26,15 +26,30 @@ const Signup = () => {
     });
 
     return /*html*/`
-        <div class="container max-w-4xl mx-auto px-4">
-            <h1>Đăng ký</h1>
-            <form id="form-signup" class="from">
-                <input type="text" placeholder="Email"  id="email"/>
-                <input type="password" placeholder="Password"  id="password"/>
-                <button>Submit</button>
-            </form>
-                
+     
+
+
+        <div class="login-page">
+      <div class="form">
+        
+
+        <div class="login">
+          <a href="/picstudio-html/index.html">
+            <i class="fa-sharp fa-solid fa-house fa-beat"></i>
+          </a>
+          <div class="login-header">
+            <h3>Đăng Ký</h3>
+          </div>
         </div>
+      <form class="login-form" id="form-signup">
+        <input type="text" class="signup-username" placeholder="Nhập email" id="email"> 
+        <input type="password"  class="signup-password" placeholder="Nhập mật khẩu" id="password" >
+        <input type="submit" class="signup-btn" value="Đăng Ký">
+        <a class="dangnhap" href="/signin"> Đăng Nhập
+        </a>
+    </form>
+      </div>
+    </div>
     `;
 };
 export default Signup;

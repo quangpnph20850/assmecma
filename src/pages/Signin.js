@@ -28,16 +28,34 @@ const Signin = () => {
                 });
         });
     });
-    return `
-        <div class="container max-w-4xl mx-auto px-4">
-            <h1>Đăng nhập</h1>
-            <form id="form-signin">
-                <input type="text" placeholder="Email"  id="email"/>
-                <input type="password" placeholder="Password"  id="password"/>
-                <button>Submit</button>
-            </form>
-                
+    return /*html*/`
+     
+
+        <div class="login-page">
+        <div class="form">
+          
+  
+          <div class="login">
+            <a href="/index.html">
+              <i class="fa-sharp fa-solid fa-house fa-beat"></i>
+            </a>
+            <div class="login-header">
+              <h3>LOGIN</h3>
+            </div>
+          </div>
+        <form class="login-form"  method="get" id="form-signin">
+          <input type="text" class="username" placeholder="Email" id="email"/>
+        
+          <input type="password"  class="password" placeholder="Mật khẩu " id="password" >
+          <input type="submit" class="loginbtn" value="Đăng nhập">
+          
+          <a class="dangky" href="/signup"> Đăng ký
+          </a>
+  
+  
+      </form>
         </div>
+      </div>
     `;
 };
 export default Signin;
